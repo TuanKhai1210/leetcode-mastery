@@ -1,0 +1,22 @@
+#include <algorithm>
+#include <vector>
+
+using namespace std;
+
+// Reviewed version of the learner's Week 1 submission.
+class Solution {
+public:
+    int maximumWealth(vector<vector<int>>& accounts) {
+        int maxWealth = 0;
+
+        for (const auto& customerAccounts : accounts) {
+            int wealth = 0;
+            for (int balance : customerAccounts) {
+                wealth += balance;
+            }
+            maxWealth = max(maxWealth, wealth);
+        }
+
+        return maxWealth;
+    }
+};
