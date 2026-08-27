@@ -1,0 +1,22 @@
+# Build artifacts
+*.exe
+*.out
+*.o
+*.obj
+*.pdb
+*.ilk
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.suo
+*.user
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
