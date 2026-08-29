@@ -14,6 +14,8 @@ Problems are added in learning order, with one focused Git commit per problem.
 | 1 | Two Sum | Easy | Complement hash map | [Code](0001-two-sum/solution.cpp) | [Analysis](0001-two-sum/README.md) |
 | 20 | Valid Parentheses | Easy | Stack matching | [Code](0020-valid-parentheses/solution.cpp) | [Analysis](0020-valid-parentheses/README.md) |
 | 26 | Remove Duplicates from Sorted Array | Easy | Same-direction two pointers | [Code](0026-remove-duplicates-from-sorted-array/solution.cpp) | [Analysis](0026-remove-duplicates-from-sorted-array/README.md) |
+| 35 | Search Insert Position | Easy | Binary-search insertion boundary | [Code](0035-search-insert-position/solution.cpp) | [Analysis](0035-search-insert-position/README.md) |
+| 69 | Sqrt(x) | Easy | Binary search on the answer | [Code](0069-sqrtx/solution.cpp) | [Analysis](0069-sqrtx/README.md) |
 | 121 | Best Time to Buy and Sell Stock | Easy | One-pass state | [Code](0121-best-time-to-buy-and-sell-stock/solution.cpp) | [Analysis](0121-best-time-to-buy-and-sell-stock/README.md) |
 | 125 | Valid Palindrome | Easy | Filtering two pointers | [Code](0125-valid-palindrome/solution.cpp) | [Analysis](0125-valid-palindrome/README.md) |
 | 167 | Two Sum II — Input Array Is Sorted | Medium | Converging two pointers | [Code](0167-two-sum-ii-input-array-is-sorted/solution.cpp) | [Analysis](0167-two-sum-ii-input-array-is-sorted/README.md) |
