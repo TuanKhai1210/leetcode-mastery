@@ -8,11 +8,11 @@ The repository prioritizes deliberate practice over raw submission count. Every 
 
 | Metric | Value |
 |---|---:|
-| Problems documented | 14 |
-| Easy | 13 |
+| Problems documented | 16 |
+| Easy | 15 |
 | Medium | 1 |
 | Primary language | C++ |
-| Initial ratings | 4 A / 7 B / 3 C |
+| Initial ratings | 5 A / 7 B / 4 C |
 | Current phase | Foundation patterns and spaced consolidation |
 
 ## Goals
@@ -82,6 +82,8 @@ Solutions are committed one problem at a time using Conventional Commit messages
 | 1 | Two Sum | Easy | Hash map | H2 | [C++](solutions/0001-two-sum/) |
 | 20 | Valid Parentheses | Easy | Stack matching | H0 / H0 | [C++](solutions/0020-valid-parentheses/) |
 | 26 | Remove Duplicates from Sorted Array | Easy | Same-direction two pointers | H0 / H3 | [C++](solutions/0026-remove-duplicates-from-sorted-array/) |
+| 35 | Search Insert Position | Easy | Binary-search insertion boundary | H0 / H1 | [C++](solutions/0035-search-insert-position/) |
+| 69 | Sqrt(x) | Easy | Binary search on the answer | H3 / H1 | [C++](solutions/0069-sqrtx/) |
 | 121 | Best Time to Buy and Sell Stock | Easy | One-pass state | H2 | [C++](solutions/0121-best-time-to-buy-and-sell-stock/) |
 | 125 | Valid Palindrome | Easy | Filtering two pointers | H1 | [C++](solutions/0125-valid-palindrome/) |
 | 167 | Two Sum II — Input Array Is Sorted | Medium | Two pointers | H1 | [C++](solutions/0167-two-sum-ii-input-array-is-sorted/) |
