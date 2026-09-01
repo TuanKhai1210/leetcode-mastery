@@ -19,6 +19,7 @@ Problems are added in learning order, with one focused Git commit per problem.
 | 121 | Best Time to Buy and Sell Stock | Easy | One-pass state | [Code](0121-best-time-to-buy-and-sell-stock/solution.cpp) | [Analysis](0121-best-time-to-buy-and-sell-stock/README.md) |
 | 125 | Valid Palindrome | Easy | Filtering two pointers | [Code](0125-valid-palindrome/solution.cpp) | [Analysis](0125-valid-palindrome/README.md) |
 | 167 | Two Sum II — Input Array Is Sorted | Medium | Converging two pointers | [Code](0167-two-sum-ii-input-array-is-sorted/solution.cpp) | [Analysis](0167-two-sum-ii-input-array-is-sorted/README.md) |
+| 206 | Reverse Linked List | Easy | Iterative pointer reversal | [Code](0206-reverse-linked-list/solution.cpp) | [Analysis](0206-reverse-linked-list/README.md) |
 | 217 | Contains Duplicate | Easy | Hash-set membership | [Code](0217-contains-duplicate/solution.cpp) | [Analysis](0217-contains-duplicate/README.md) |
 | 242 | Valid Anagram | Easy | Fixed-domain counting | [Code](0242-valid-anagram/solution.cpp) | [Analysis](0242-valid-anagram/README.md) |
 | 283 | Move Zeroes | Easy | Stable same-direction two pointers | [Code](0283-move-zeroes/solution.cpp) | [Analysis](0283-move-zeroes/README.md) |

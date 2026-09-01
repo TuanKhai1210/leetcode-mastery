@@ -8,11 +8,11 @@ The repository prioritizes deliberate practice over raw submission count. Every 
 
 | Metric | Value |
 |---|---:|
-| Problems documented | 16 |
-| Easy | 15 |
+| Problems documented | 17 |
+| Easy | 16 |
 | Medium | 1 |
 | Primary language | C++ |
-| Initial ratings | 5 A / 7 B / 4 C |
+| Initial ratings | 5 A / 7 B / 5 C |
 | Current phase | Foundation patterns and spaced consolidation |
 
 ## Goals
@@ -87,6 +87,7 @@ Solutions are committed one problem at a time using Conventional Commit messages
 | 121 | Best Time to Buy and Sell Stock | Easy | One-pass state | H2 | [C++](solutions/0121-best-time-to-buy-and-sell-stock/) |
 | 125 | Valid Palindrome | Easy | Filtering two pointers | H1 | [C++](solutions/0125-valid-palindrome/) |
 | 167 | Two Sum II — Input Array Is Sorted | Medium | Two pointers | H1 | [C++](solutions/0167-two-sum-ii-input-array-is-sorted/) |
+| 206 | Reverse Linked List | Easy | Iterative pointer reversal | H3 / H2 | [C++](solutions/0206-reverse-linked-list/) |
 | 217 | Contains Duplicate | Easy | Hash set | H1 | [C++](solutions/0217-contains-duplicate/) |
 | 242 | Valid Anagram | Easy | Frequency counting | H1 | [C++](solutions/0242-valid-anagram/) |
 | 283 | Move Zeroes | Easy | Stable two pointers | H3 / H0 | [C++](solutions/0283-move-zeroes/) |

@@ -8,7 +8,7 @@ Week 3 core work plus extension `167` was submitted on **2026-08-24**. Support w
 
 Week 4 core work plus extension `20` was submitted on **2026-08-29**. Recorded times were 20 minutes for `26` and 30 minutes each for `283`, `704`, and `20`. Problems `26`, `283`, and `704` require H0 reconstruction because the optimal algorithm used H3; `20` was H0 throughout.
 
-Week 5 Sessions 1–2 were submitted on **2026-08-29**. Problem `35` took 10 minutes with H0 algorithm support and one H1 implementation correction. Problem `69` took 15 minutes with H3 algorithm support and H1 boundary debugging. Session 3 is pending.
+Week 5 Sessions 1–2 were submitted on **2026-08-29**. Problem `35` took 10 minutes with H0 algorithm support and one H1 implementation correction. Problem `69` took 15 minutes with H3 algorithm support and H1 boundary debugging. Session 3, problem `206`, was recorded on **2026-08-31** with H3 algorithm support and H2 implementation debugging; its attempt time is pending.
 
 | Problem | Initial time | Baseline | Optimization help | Current rating | Next-session review | D+7 | D+21 | D+60 | Status |
 |---|---:|---|---|---|---|---|---|---|---|
@@ -28,6 +28,7 @@ Week 5 Sessions 1–2 were submitted on **2026-08-29**. Problem `35` took 10 min
 | 20. Valid Parentheses | 30 min | H0 stack insight and implementation | None | A | — | 2026-09-05 | 2026-09-19 | 2026-10-28 | Scheduled |
 | 35. Search Insert Position | 10 min | H0 binary-search algorithm | H1 midpoint correction | A | — | 2026-09-05 | 2026-09-19 | 2026-10-28 | Scheduled |
 | 69. Sqrt(x) | 15 min | Linear scan overflowed and timed out | H3 binary search / H1 final boundary | C | Next study session | 2026-09-05 | 2026-09-19 | 2026-10-28 | H0 recode due; add D+3 after success |
+| 206. Reverse Linked List | Pending | Value-swapping idea did not fit a singly linked list | H3 pointer pseudocode / H2 loop debugging | C | Next study session | 2026-09-07 | 2026-09-21 | 2026-10-30 | H0 recode due; add D+3 after success |
 
 ## Promotion rule for these problems
 
@@ -47,5 +48,6 @@ No Week 1–2 review completion was reported by 2026-08-24. Do not mark any revi
 4. Reconstruct the optimal solutions for C-rated `26`, `283`, and `704` without hints; repeat successful attempts at D+3.
 5. Review A-rated `20` at D+7.
 6. Reconstruct C-rated `69` without hints and review A-rated `35` at D+7.
-7. Limit each session to at most two full blank-editor reviews; explanations can be shorter.
-8. Record actual time and support for every review. A successful late review restarts spacing from its actual completion date; missed historical dates are not repeated on the same day.
+7. Reconstruct C-rated `206` from a blank editor, stating the reversed-prefix invariant before coding.
+8. Limit each session to at most two full blank-editor reviews; explanations can be shorter.
+9. Record actual time and support for every review. A successful late review restarts spacing from its actual completion date; missed historical dates are not repeated on the same day.

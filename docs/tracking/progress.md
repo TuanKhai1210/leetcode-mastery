@@ -10,12 +10,12 @@ This file is the source of truth for completed problems, review status, and lear
 | Primary language | C++ |
 | Secondary language | Python (introduced later) |
 | Planned study frequency | 3 sessions per week |
-| Completed planned sessions | 14 |
-| Completed problems | 16 |
+| Completed planned sessions | 15 |
+| Completed problems | 17 |
 | Recorded first-baseline time | 175 minutes across Weeks 1–2, 4, and 5; Week 3 pending |
 | Recorded total work time | 185 minutes across Weeks 1–2, 4, and 5; Week 3 pending |
-| Current first-solve ratings | 5 A / 7 B / 4 C |
-| Current stage | Week 5 Sessions 1–2 completed; one planned session remains |
+| Current first-solve ratings | 5 A / 7 B / 5 C |
+| Current stage | Week 5 completed; consolidation reviews due |
 
 ## Mastery Scale
 
@@ -62,6 +62,7 @@ Record solution help and post-solve optimization help separately. Example: `H0 /
 | 4 | Extension | 20 | Valid Parentheses | Stack matching | C++ | 30 min | H0 / H0 | Correct; judge status not reported | A | Scheduled |
 | 5 | 1 | 35 | Search Insert Position | Binary-search insertion boundary | C++ | 10 min | H0 algorithm / H1 implementation correction | Correct; judge status not reported | A | Scheduled |
 | 5 | 2 | 69 | Sqrt(x) | Binary search on the answer | C++ | 15 min | H3 algorithm / H1 boundary correction | Correct; judge status not reported | C | Scheduled |
+| 5 | 3 | 206 | Reverse Linked List | Iterative pointer reversal | C++ | Pending | H3 algorithm / H2 implementation debugging | Correct; judge status not reported | C | Scheduled |
 
 ### Week 1 Notes
 
@@ -99,7 +100,8 @@ Record solution help and post-solve optimization help separately. Example: `H0 /
 - `35`: the logarithmic algorithm and insertion-boundary invariant were H0. H1 only corrected the missing `/ 2` in the midpoint expression, so the first-solve rating remains A.
 - `69`: H3 transformed the overflowing linear scan into binary search over candidate roots. H1 corrected the final boundary from `left` to `right`, so this problem requires an H0 reconstruction before promotion.
 - Both problems reuse the closed-interval convention from `704`, but produce different boundary answers: `35` returns the first valid insertion index (`left`), while `69` returns the greatest feasible root (`right`).
-- Week 5 has 25 recorded minutes so far. Session 3 and all previously overdue reviews remain unreported.
+- `206`: H3 supplied the four-step pointer-reversal order. H2 corrected the loop condition and final returned pointer after a null dereference. The key invariant is that `previous` heads the reversed prefix while `head` begins the untouched suffix.
+- Week 5 is complete with 25 recorded minutes plus the pending time for `206`. All previously overdue reviews remain unreported.
 
 ## Spaced-Review Queue
 
@@ -123,6 +125,7 @@ Review timing depends on the rating: **A → D+7, D+21, D+60, D+120**; **B → n
 | 20 | — | 2026-09-05 | 2026-09-19 | 2026-10-28 | 2026-12-27 | A | H0 stack review on or after D+7 |
 | 35 | — | 2026-09-05 | 2026-09-19 | 2026-10-28 | 2026-12-27 | A | H0 boundary review on or after D+7 |
 | 69 | Next study session | 2026-09-05 | 2026-09-19 | 2026-10-28 | — | C | H0 answer-space recode, then repeat at D+3 |
+| 206 | Next study session | 2026-09-07 | 2026-09-21 | 2026-10-30 | — | C | H0 pointer-reversal recode, then repeat at D+3 |
 
 Review result notation:
 
@@ -146,7 +149,7 @@ Review result notation:
 | 2 | 3 / 3 | 3 | 3 / pending | 3 baseline ideas | 0 / 3 / 0 / 0 | 11.7 min total/problem | Hash set and hash map | 35 min total; review outcomes pending |
 | 3 | 3 / 3 | 4 (1 extension) | 6 / 0 reported | 1 | 1 / 3 / 0 / 0 | Pending | One-pass state and two pointers | Core complete; consolidation required |
 | 4 | 3 / 3 | 4 (1 extension) | Overdue / 0 reported | 2 baseline ideas | 1 / 0 / 3 / 0 | 27.5 min | Two pointers, binary search, stack | 110 min total; prior reviews remain due |
-| 5 | 2 / 3 | 2 | Overdue / 0 reported | 1 | 1 / 0 / 1 / 0 | 12.5 min | Binary-search boundaries | 25 min total; Session 3 pending |
+| 5 | 3 / 3 | 3 | Overdue / 0 reported | 1 | 1 / 0 / 2 / 0 | 12.5 min across recorded attempts | Binary search and linked lists | 25 min recorded; `206` time pending |
 
 ## Milestone Dashboard
 
